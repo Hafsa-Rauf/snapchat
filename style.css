@@ -22,6 +22,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
+  z-index: 10;
 
   > .nav-part1 {
     display: flex;
@@ -69,20 +70,17 @@ nav {
     display: flex;
     align-items: end;
     gap: 70px;
-   
 
     .nav-right .logo {
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-color: #C7C7CC;
+      background-color: #c7c7cc;
       padding: 10px;
       border-radius: 50px;
-     
 
       svg {
         stroke: rgb(241, 240, 240);
-       
       }
     }
   }
